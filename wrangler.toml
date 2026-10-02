@@ -1,0 +1,13 @@
+name = "hello-server"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+# The HELLO app page. It is the file public/index.html
+[assets]
+directory = "./public"
+
+# The database named hello
+[[d1_databases]]
+binding = "DB"
+database_name = "hello"
+database_id = "61391afd-47cb-421d-9a74-938273a7b51f"
