@@ -1,8 +1,12 @@
-name = "vibewire-proxy1"
+name = "hello-server"
 main = "worker.js"
 compatibility_date = "2025-09-01"
 keep_vars = true
 
-[[kv_namespaces]]
-binding = "PUB"
-id = "PASTE_KV_ID_HERE"
+[assets]
+directory = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hello-db"
+database_id = "PASTE_D1_DATABASE_ID_HERE"
